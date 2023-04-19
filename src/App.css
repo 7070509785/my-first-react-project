@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.garage{background-color:rgb(250, 242, 242);
+   color: white;
+   height:100vh;
+   font-size: 22px;
+
+}
