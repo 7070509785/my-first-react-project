@@ -1,0 +1,63 @@
+.sop {
+  width: 200px;
+  position: relative;
+}
+.ayshu img {
+  width: 100%;
+  height: 208px;
+}
+.ayshu h4 {
+  margin-bottom: -6px;
+}
+.ayshu p {
+  margin-bottom: 20px;
+}
+.car {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.top {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  font-size: 12px;
+}
+.title {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+}
+.nutan {
+  position: absolute;
+  bottom: 184px;
+  background-color: white;
+  left: 12px;
+  font-size: 14px;
+  padding: 2px;
+}
+.nutan img {
+  width: 13px;
+}
+.bat {
+  border: 1px solid black;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.ayshu:hover .timtim {
+  display: block;
+}
+.timtim {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  background-color: white;
+  width: 100%;
+}
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

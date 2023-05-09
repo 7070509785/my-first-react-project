@@ -1,0 +1,65 @@
+.slider {
+  position: relative;
+}
+.scroll-button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 290px;
+}
+.photo p {
+  position: absolute;
+}
+.circle {
+  height: 15px;
+  width: 15px;
+  background-color: grey;
+  margin: 5px;
+  border-radius: 50%;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  min-width: 100%;
+}
+
+.kumari p {
+  color: white;
+  font-size: 20px;
+}
+.photo img {
+  width: 100%;
+  height: 400px;
+}
+.scroll-button {
+  color: white;
+  font-size: 20px;
+  margin-top: -39px;
+}
+.circle:hover {
+  background-color: rgb(100, 40, 40);
+}
+.top:hover {
+  background-color: black;
+  padding: 20px;
+}
+.black:hover {
+  background-color: black;
+}
+.photo h2 {
+  text-align: center;
+  margin-top: -40px;
+  color: white;
+}
+.kumari {
+  display: flex;
+}
+.top {
+  padding: 30px;
+}
+.black {
+  padding: 30px;
+}
