@@ -28,17 +28,7 @@
   font-weight: 400;
   font-size: 12px;
 }
-.nutan {
-  position: absolute;
-  bottom: 184px;
-  background-color: white;
-  left: 12px;
-  font-size: 14px;
-  padding: 2px;
-}
-.nutan img {
-  width: 13px;
-}
+
 .bat {
   border: 1px solid black;
   justify-content: space-around;
@@ -46,7 +36,7 @@
   width: 100%;
   align-items: center;
 }
-.ayshu:hover .timtim {
+.sop:hover .timtim {
   display: block;
 }
 .timtim {
@@ -55,9 +45,29 @@
   bottom: 100px;
   background-color: white;
   width: 100%;
+  z-index: 10;
 }
 .ball {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50px;
+  color: rgb(236, 73, 100);
+  background-color: white;
+  border: 2px solid rgb(175, 174, 174);
+  width: fit-content;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: 210px;
+  left: 44px;
+}
+.ball h5 {
+  margin: 0px;
+}
+.ball .mobile-icon {
+  margin-right: 10px;
+}
+.name {
+  position: absolute;
+  bottom: 115px;
 }
