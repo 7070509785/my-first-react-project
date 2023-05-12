@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,9 +40,9 @@
     transform: rotate(360deg);
   }
 }
-.garage{background-color:rgb(250, 242, 242);
-   color: white;
-   height:100vh;
-   font-size: 22px;
-
+.garage {
+  background-color: rgb(250, 242, 242);
+  color: white;
+  height: 100vh;
+  font-size: 22px;
 }

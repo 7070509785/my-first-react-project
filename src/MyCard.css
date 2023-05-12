@@ -1,16 +1,20 @@
 .sop {
-  width: 200px;
+  width: 210px;
   position: relative;
 }
 .ayshu img {
-  width: 100%;
-  height: 208px;
+  width: 210px;
+  height: 280px;
 }
-.ayshu h4 {
-  margin-bottom: -6px;
+.ayshu h3 {
+  margin-bottom: -10px;
+  margin-top: 20px;
 }
 .ayshu p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: grey;
+  font-size: 14px;
 }
 .car {
   font-size: 14px;
@@ -22,19 +26,29 @@
   color: #7e818c;
   font-weight: 400;
   font-size: 12px;
+  margin-left: 5px;
+  margin-right: 7px;
 }
 .title {
   color: #ff905a;
   font-weight: 400;
   font-size: 12px;
 }
+.bat p {
+  margin-left: 10px;
+}
 
 .bat {
-  border: 1px solid black;
-  justify-content: space-around;
+  border: 1px solid grey;
+  justify-content: center;
   display: flex;
-  width: 100%;
+  width: 87%;
   align-items: center;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 25px;
+  height: 34px;
+  cursor: pointer;
 }
 .sop:hover .timtim {
   display: block;
@@ -45,7 +59,18 @@
   bottom: 100px;
   background-color: white;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
+  font-size: 14px;
+  color: #535665;
+  line-height: 1;
+  margin-top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin-bottom: -85px;
+  font-weight: 400;
+  height: 122px;
 }
 .ball {
   display: flex;
@@ -54,20 +79,49 @@
   border-radius: 50px;
   color: rgb(236, 73, 100);
   background-color: white;
-  border: 2px solid rgb(175, 174, 174);
+  border: 1px solid rgb(175, 174, 174);
   width: fit-content;
-  padding: 7px 15px;
   position: absolute;
-  bottom: 210px;
-  left: 44px;
+  bottom: 145px;
+  right: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
 }
-.ball h5 {
-  margin: 0px;
-}
-.ball .mobile-icon {
+.ball:hover .mobile-icon {
   margin-right: 10px;
+}
+
+.ball h5 {
+  visibility: hidden;
+  display: none;
+}
+.ball:hover h5 {
+  transition: all 1s;
+  display: inline-block;
+  visibility: visible;
 }
 .name {
   position: absolute;
-  bottom: 115px;
+  bottom: 110px;
+  left: 12px;
+}
+
+.egg {
+  font-size: 14px;
+  color: #535665;
+  line-height: 1;
+  display: none;
+  margin-top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.nutan2 {
+  margin-top: 30px;
+}
+.bat:hover {
+  border-color: black;
 }
