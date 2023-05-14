@@ -1,0 +1,25 @@
+.himanshu {
+  width: 500px;
+  height: 800px;
+}
+.nutan {
+  display: flex;
+  justify-content: space-between;
+}
+.bittu1 {
+  display: flex;
+  height: 27px;
+}
+.kajal {
+  padding: 33px;
+}
+progress::-webkit-progress-bar {
+  background: #fff;
+}
+progress::-webkit-progress-value {
+  background: #eebf3e;
+}
+.timtim-mandal {
+  padding: 33px;
+  margin-top: -21px;
+}
