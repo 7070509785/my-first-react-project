@@ -1,0 +1,23 @@
+.card {
+  width: 800px;
+}
+.nutan {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ayshu {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.timtim1 {
+  width: 115px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,9 +1,7 @@
 import "./App.css";
-import MyCard from "./MyCard";
-import IconContainer from "./iconContainer";
-import Usestaate from "./usestate";
+import Imagereviews from "./image-reviews/image-reviews";
 function App() {
-  return <IconContainer></IconContainer>;
+  return <Imagereviews></Imagereviews>;
 }
 
 export default App;

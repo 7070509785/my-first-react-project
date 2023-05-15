@@ -1,0 +1,12 @@
+.nutan {
+  display: flex;
+  background-color: aqua;
+  width: 800px;
+  height: 500px;
+}
+.timtim {
+  display: flex;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
