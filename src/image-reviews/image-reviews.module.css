@@ -1,12 +1,69 @@
 .nutan {
-  display: flex;
-  background-color: aqua;
+  background-color: #282c3f;
   width: 800px;
   height: 500px;
+  display: flex;
 }
 .timtim {
+  background-color: #282c3f22;
+  width: 500px;
+  height: 500px;
   display: flex;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
+}
+.ayush1 {
+  background-color: #282c3f;
+  width: 50px;
+  height: 500px;
+}
+.ayush1 h2 {
+  margin-top: 230px;
+  margin-left: 20px;
+}
+.ayush3 h2 {
+  margin-top: 250px;
+  margin-left: 20px;
+}
+.ayush2 {
+  background-color: #282c3f;
+  width: 300px;
+  height: 400px;
+}
+.ayush3 {
+  background-color: #282c3f;
+  width: 50px;
+  height: 500px;
+}
+.nutan1 {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 500px;
+  border: solid 1px;
+}
+.ayush2 img {
+  width: 300px;
+}
+.sop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.ayush1 span {
+  color: white;
+  font-size: 22px;
+}
+.ayush1 h2 {
+  margin-top: 250px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+}
+.ayush3 h2 {
+  margin-top: 262px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+}
+.sop img {
+  width: 120px;
 }
