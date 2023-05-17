@@ -35,12 +35,11 @@
 }
 .nutan1 {
   background-color: rgb(255, 255, 255);
-  width: 500px;
   height: 500px;
-  border: solid 1px;
+  padding: 30px;
 }
 .ayush2 img {
-  width: 300px;
+  width: 100%;
 }
 .sop {
   width: 100%;
@@ -66,4 +65,71 @@
 }
 .sop img {
   width: 120px;
+}
+.nutan2 {
+  display: flex;
+}
+
+.nutan3 {
+  background-color: white;
+  width: 70px;
+  height: 200px;
+}
+.nutan4 {
+  background-color: white;
+  width: 370px;
+  height: 200px;
+}
+.nutan4 p {
+  font-size: 15px;
+}
+.nutan3 {
+  display: flex;
+  background-color: darkgreen;
+  color: white;
+  height: 17px;
+  width: 25px;
+  font-size: 12px;
+}
+.tim3 {
+  width: 170px;
+  height: 20px;
+  background-color: white;
+  margin-top: 20px;
+}
+.tim3 h5 {
+  font-size: 11px;
+  margin-top: 3px;
+  color: gray;
+}
+.apple {
+  margin-right: 30px;
+  width: 172px;
+  height: 25px;
+  color: azure;
+  margin-left: 192px;
+  margin-top: -21px;
+  display: flex;
+}
+.apple p {
+  color: black;
+  font-size: 13px;
+  margin-left: 9px;
+  margin-top: 5px;
+  color: grey;
+}
+.apple1 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+.apple1 p {
+  color: grey;
+  margin-top: 3px;
+}
+.app {
+  color: gray;
+}
+.aoo {
+  color: gray;
 }
