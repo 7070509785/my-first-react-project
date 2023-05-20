@@ -15,8 +15,12 @@ function Imagereviews() {
         </div>
         <div className={styles.ayush2}>
           <div className={styles.top}>
-            <img src="https://img0.junaroad.com/uiproducts/17778960/zoom_0-1623068152.jpg"></img>
+            <img
+              className={styles.main_img}
+              src="https://img0.junaroad.com/uiproducts/17778960/zoom_0-1623068152.jpg"
+            ></img>
             <div className={styles.sop}>
+              <img src="https://rukminim1.flixcart.com/image/832/832/k4hcjgw0pkrrdj/shoe/p/d/s/6-orifwsh-3068-swiggy-orifwsh-3068-original-imafkfdgtgr6xpzq.jpeg?q=70"></img>
               <img src="https://rukminim1.flixcart.com/image/832/832/k4hcjgw0pkrrdj/shoe/p/d/s/6-orifwsh-3068-swiggy-orifwsh-3068-original-imafkfdgtgr6xpzq.jpeg?q=70"></img>
             </div>
           </div>

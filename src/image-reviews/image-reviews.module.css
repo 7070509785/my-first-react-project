@@ -1,70 +1,83 @@
 .nutan {
   background-color: #282c3f;
-  width: 800px;
-  height: 500px;
   display: flex;
 }
 .timtim {
   background-color: #282c3f22;
-  width: 500px;
-  height: 500px;
   display: flex;
 }
 .ayush1 {
   background-color: #282c3f;
-  width: 50px;
-  height: 500px;
+  font-weight: 100;
+  margin-left: 17px;
 }
 .ayush1 h2 {
-  margin-top: 230px;
-  margin-left: 20px;
+  margin-top: 225px;
+  margin-left: 12px;
+  font-weight: 100;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
 }
 .ayush3 h2 {
-  margin-top: 250px;
+  margin-top: 275px;
   margin-left: 20px;
 }
 .ayush2 {
   background-color: #282c3f;
-  width: 300px;
-  height: 400px;
 }
 .ayush3 {
   background-color: #282c3f;
-  width: 50px;
-  height: 500px;
+  margin-left: 17px;
+  font-weight: 100;
 }
 .nutan1 {
   background-color: rgb(255, 255, 255);
-  height: 500px;
   padding: 30px;
 }
 .ayush2 img {
   width: 100%;
+  margin: 15px 5px;
+}
+.ayush2 .main_img {
+  height: calc(100vh - 133px);
+}
+.ayush2 .sop img:hover {
+  border: solid 3px rgb(247, 13, 13);
 }
 .sop {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  cursor: pointer;
 }
 .ayush1 span {
   color: white;
   font-size: 22px;
+  margin-left: 1px;
+  display: block;
+  margin-top: 16px;
+  cursor: pointer;
 }
 .ayush1 h2 {
-  margin-top: 250px;
-  margin-left: 20px;
+  margin-top: 235px;
+  margin-left: 2px;
   font-size: 40px;
   color: white;
 }
 .ayush3 h2 {
-  margin-top: 262px;
-  margin-left: 20px;
+  margin-top: 275px;
+  margin-left: 1px;
   font-size: 40px;
   color: white;
+  margin-right: 12px;
+  font-weight: 100;
+  cursor: pointer;
 }
 .sop img {
   width: 120px;
+  margin-left: 10px;
 }
 .nutan2 {
   display: flex;
@@ -72,28 +85,25 @@
 
 .nutan3 {
   background-color: white;
-  width: 70px;
   height: 200px;
 }
 .nutan4 {
   background-color: white;
-  width: 370px;
   height: 200px;
 }
 .nutan4 p {
   font-size: 15px;
+  margin-left: 16px;
 }
 .nutan3 {
   display: flex;
   background-color: darkgreen;
   color: white;
   height: 17px;
-  width: 25px;
   font-size: 12px;
+  padding: 3px;
 }
 .tim3 {
-  width: 170px;
-  height: 20px;
   background-color: white;
   margin-top: 20px;
 }
@@ -101,11 +111,10 @@
   font-size: 11px;
   margin-top: 3px;
   color: gray;
+  margin-left: 20px;
 }
 .apple {
   margin-right: 30px;
-  width: 172px;
-  height: 25px;
   color: azure;
   margin-left: 192px;
   margin-top: -21px;
