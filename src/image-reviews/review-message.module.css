@@ -1,0 +1,74 @@
+.nutan1 {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  width: 50%;
+}
+.nutan2 {
+  display: flex;
+}
+.nutan3 {
+  background-color: white;
+  height: 200px;
+}
+.nutan4 {
+  background-color: white;
+  height: 200px;
+}
+.nutan4 p {
+  font-size: 15px;
+  margin-left: 16px;
+  color: #282c3f;
+}
+.tim3 {
+  background-color: white;
+  margin-top: 20px;
+}
+.tim3 h5 {
+  font-size: 11px;
+  margin-top: 3px;
+  color: gray;
+  margin-left: 20px;
+}
+.apple {
+  margin-right: 30px;
+  color: azure;
+  margin-left: 192px;
+  margin-top: -21px;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple p {
+  color: black;
+  font-size: 13px;
+  margin-left: 9px;
+  margin-top: 5px;
+  color: grey;
+}
+.apple1 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 3px;
+  justify-content: center;
+  align-items: center;
+}
+.apple1 p {
+  color: grey;
+  margin-top: 3px;
+}
+.app {
+  color: gray;
+}
+.aoo {
+  color: gray;
+}
+.nutan3 {
+  display: flex;
+  background-color: darkgreen;
+  color: white;
+  height: 17px;
+  font-size: 12px;
+  padding: 3px;
+}
