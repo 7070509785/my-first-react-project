@@ -1,0 +1,48 @@
+.timtim {
+  display: flex;
+}
+.nutan1 h4 {
+  color: #282c3f;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.nutan1 li {
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.nutan2 h5 {
+  padding-bottom: 30px;
+  color: #282c3f;
+  margin-top: 30px;
+}
+.nutan2 li {
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.kajal li {
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.kajal h5 {
+  color: #282c3f;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.kajal1 h5 {
+  color: #282c3f;
+  margin: -3px 0 0;
+  padding: 3px 29px 25px;
+}

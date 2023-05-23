@@ -1,7 +1,8 @@
 import "./App.css";
+import Footer from "./footer/footer";
 import ImageReviewGallary from "./image-reviews/image-reviews-gallary";
 function App() {
-  return <ImageReviewGallary></ImageReviewGallary>;
+  return <Footer></Footer>;
 }
 
 export default App;
