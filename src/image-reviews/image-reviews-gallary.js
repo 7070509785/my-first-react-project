@@ -3,7 +3,7 @@ import styles from "./image-reviews-gallary.module.css";
 import ImageReview from "./image-review";
 import { useState } from "react";
 function ImageReviewGallary() {
-  const [review, setReview] = useState(null);
+  const [review, setReview] = useState(-1);
   const reviews = [
     {
       stars: "4",
@@ -30,7 +30,8 @@ function ImageReviewGallary() {
     },
     {
       stars: "5",
-      message: "Gud quality",
+      message:
+        "5 stars for the product. Same as shown in pics. Very good quality. 5 stars for delivery and 5 stars for packing. Couple of days back, I bought a similar tshirt from Levis which was way expensive than the roadster one but when it comes to quality, roadster one is way better.",
       userName: "Nutan kumari",
       date: moment(),
       like: 5,
@@ -91,29 +92,106 @@ function ImageReviewGallary() {
         "https://ih1.redbubble.net/image.3089604828.1708/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
       ],
     },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://www.jiomart.com/images/product/500x630/rvu9og12zt/gespo-white-grey-navy-blue-colorblocked-round-neck-half-sleeve-t-shirt-product-images-rvu9og12zt-0-202208020158.jpg",
+        "https://www.jiomart.com/images/product/500x630/rvti4ihu4t/ausk-men-s-navy-blue-white-colorblocked-round-neck-half-sleeve-casual-t-shirt-product-images-rvti4ihu4t-0-202205180841.jpg",
+      ],
+    },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://m.media-amazon.com/images/I/51rGaQnuThL._SX522._SX._UX._SY._UY_.jpg",
+        "https://m.media-amazon.com/images/I/51rGaQnuThL._SX522._SX._UX._SY._UY_.jpg",
+      ],
+    },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://m.media-amazon.com/images/I/51zz7O5MUWL._SX342_SY445_QL70_ML2_.jpg",
+        "https://m.media-amazon.com/images/I/51zz7O5MUWL._SX342_SY445_QL70_ML2_.jpg",
+      ],
+    },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://rukminim1.flixcart.com/image/612/612/l0bbonk0/t-shirt/4/j/s/l-t4-bell-paper-original-imagc4kjzm86j46d.jpeg?q=70",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5z3pyy--VbFAyaKI-hyatUjMbV4xe9aLiNBXWR_NkE4dc5KpA_r-0nWX1tijWh9cphw&usqp=CAU",
+      ],
+    },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://ih1.redbubble.net/image.3089604828.1708/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+        "https://ih1.redbubble.net/image.3089604828.1708/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+      ],
+    },
+    {
+      stars: "5",
+      message: "Gud",
+      userName: "Nutan kumari",
+      date: moment(),
+      like: 5,
+      dislike: 2,
+      images: [
+        "https://ih1.redbubble.net/image.3089604828.1708/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+        "https://ih1.redbubble.net/image.3089604828.1708/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+      ],
+    },
   ];
-
-  const externalImage =
-    "https://i.pinimg.com/474x/cc/e0/78/cce078329ede2e53f7dde2d205e93c79.jpg";
-
+  const goBack = () => {
+    setReview((r) => (r > 0 ? r - 1 : 0));
+  };
+  const goNext = () => {
+    setReview((r) => (r < reviews.length - 1 ? r + 1 : reviews.length - 1));
+  };
+  console.log(review);
   return (
     <div>
       <div className={styles.card}>
         <div className={styles.ayshu}>
-          {reviews.map((r) =>
+          {reviews.map((r, index) =>
             r.images.map((i) => (
               <div
                 style={{
                   backgroundImage: `url(${i})`,
                 }}
                 className={styles.timtim1}
-                onClick={() => setReview(r)}
+                onClick={() => setReview(index)}
               ></div>
             ))
           )}
         </div>
       </div>
-      {review && <ImageReview review={review} />}
+      {review >= 0 && (
+        <ImageReview review={reviews[review]} back={goBack} next={goNext} />
+      )}
     </div>
   );
 }

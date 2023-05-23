@@ -1,7 +1,7 @@
 import "./App.css";
-import Imagereviews from "./image-reviews/image-reviews";
+import ImageReviewGallary from "./image-reviews/image-reviews-gallary";
 function App() {
-  return <Imagereviews></Imagereviews>;
+  return <ImageReviewGallary></ImageReviewGallary>;
 }
 
 export default App;
