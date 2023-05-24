@@ -46,3 +46,60 @@
   margin: -3px 0 0;
   padding: 3px 29px 25px;
 }
+.kajal2 {
+  display: flex;
+}
+.sop {
+  width: 166px;
+  margin-left: 20px;
+  height: 64px;
+  margin-top: -4px;
+}
+.sop2 {
+  width: 140px;
+  margin-left: 187px;
+  height: 134px;
+  margin-top: -100px;
+}
+.kajal3 h5 {
+  margin-top: 128px;
+  margin-left: -293px;
+  color: #282c3f;
+}
+.kajal3 img {
+  width: 20px;
+  margin-left: -292px;
+  margin-top: 16px;
+}
+.kajal4 img {
+  width: 20px;
+  margin-left: -256px;
+  margin-top: 160px;
+}
+.kajal5 img {
+  width: 27px;
+  margin-left: -230px;
+  margin-top: 160px;
+}
+.kajal6 img {
+  width: 20px;
+  margin-left: -189px;
+  margin-top: 160px;
+}
+.apple img {
+  margin-left: 41px;
+  width: 48px;
+  height: 40px;
+}
+.apple2 img {
+  margin-left: 41px;
+  width: 50px;
+  margin-top: 22px;
+}
+.apple {
+  display: flex;
+}
+.app {
+  color: #282c3f;
+  font-weight: 700;
+}
