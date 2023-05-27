@@ -1,8 +1,6 @@
 import "./App.css";
-import Footer from "./footer/footer";
-import ImageReviewGallary from "./image-reviews/image-reviews-gallary";
+import ProductTopFilters from "./product-top-filter/product-top-filters";
 function App() {
-  return <Footer></Footer>;
+  return <ProductTopFilters></ProductTopFilters>;
 }
-
 export default App;

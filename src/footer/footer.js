@@ -121,7 +121,7 @@ function Footer() {
             <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"></img>
             <div className={styles.app}>
               <p>
-                <b>100% ORIGINAL</b>guarantee for all products at myntra.com
+                <b>100% ORIGINAL </b>guarantee for all products at myntra.com
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ function Footer() {
             <img src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png"></img>
             <div className={styles.mood}>
               <p>
-                <b>Return within 14days</b>of receiving your order
+                <b>Return within 14days </b>of receiving your order
               </p>
             </div>
           </div>
