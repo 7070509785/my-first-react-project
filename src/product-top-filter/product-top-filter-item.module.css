@@ -1,13 +1,23 @@
 .nutan1 {
   display: flex;
   font-size: 15px;
-  margin-left: 20px;
+  margin-left: 20xpx;
   color: gray;
 }
 .nutan1 h5 {
   font-weight: 400;
+  width: max-content;
 }
 .bol {
   font-size: 12px;
   margin-left: 12px;
+}
+.not {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 30px;
+}
+.not:hover {
+  background-color: #eaeded;
+  cursor: pointer;
 }

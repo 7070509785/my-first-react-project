@@ -1,5 +1,6 @@
 import ProductTopFillerItem from "./product-top-filter-item";
 import styles from "./product-top-filters.module.css";
+import ProductTopSort from "./product-top-sort";
 function ProductTopFilters() {
   return (
     <div className={styles.ayush}>
@@ -15,6 +16,9 @@ function ProductTopFilters() {
         <ProductTopFillerItem title={"Size"} />
         <ProductTopFillerItem title={"Trends"} />
         <ProductTopFillerItem title={"Warranty"} />
+      </div>
+      <div>
+        <ProductTopSort />
       </div>
     </div>
   );
