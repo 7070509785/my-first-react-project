@@ -8,6 +8,7 @@
   width: 255px;
   box-sizing: border-box;
   border: 1px solid #d4d5d9;
+  position: relative;
 }
 .mood span {
   text-transform: capitalize;
@@ -24,30 +25,7 @@
   font-size: 12px;
   margin-left: 66px;
 }
-.mat h5 {
-  display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
-}
-.apple4 h5 {
-  display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
-}
-.cat h5 {
-  display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
-}
+
 .apple h5 {
   display: block;
   font-size: 14px;
@@ -56,27 +34,18 @@
   padding: 10px 20px;
   font-weight: 400;
 }
-.apple2 h5 {
-  display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
+.kajal {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  border: 1px solid #d4d5d9;
+  left: 0;
+  display: none;
 }
-.apple3 h5 {
-  display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
+
+.kajal .apple:hover {
+  background-color: #eaeded;
 }
-.apple1 h5 {
+.mood:hover .kajal {
   display: block;
-  font-size: 14px;
-  color: #282c3f;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-weight: 400;
 }

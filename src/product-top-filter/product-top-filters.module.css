@@ -1,6 +1,15 @@
 .nutan {
   display: flex;
+  flex-wrap: wrap;
 }
 .ayush {
+  display: flex;
+}
+.ayush1 label {
+  padding: 10px;
+  font-size: 15px;
+  color: #3d4141;
+}
+.kajal5 {
   display: flex;
 }
