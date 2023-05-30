@@ -1,7 +1,14 @@
+import {
+  faArrowAltCircleDown,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import ProductTopFillerItem from "./product-top-filter-item";
 import styles from "./product-top-filters.module.css";
 import ProductTopSort from "./product-top-sort";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 function ProductTopFilters() {
+  const [selectedFilter, setSelectedFilter] = useState(null);
   let filters = [
     {
       title: "Bundles",
@@ -88,42 +95,39 @@ function ProductTopFilters() {
       ],
     },
   ];
+
   return (
     <div>
       <div className={styles.ayush}>
         <div className={styles.nutan}>
-          <ProductTopFillerItem title={"Add-Ons"} />
-          <ProductTopFillerItem title={"Assembly"} />
-          <ProductTopFillerItem title={"Bundles"} />
-          <ProductTopFillerItem title={"Country of Origin"} />
-          <ProductTopFillerItem title={"Material"} />
-          <ProductTopFillerItem title={"Pattern"} />
-          <ProductTopFillerItem title={"Rating"} />
-          <ProductTopFillerItem title={"Shape"} />
-          <ProductTopFillerItem title={"Size"} />
-          <ProductTopFillerItem title={"Trends"} />
-          <ProductTopFillerItem title={"Warranty"} />
+          {filters.map((f) => (
+            <div onClick={() => setSelectedFilter(f)}>
+              <ProductTopFillerItem title={f.title} />
+            </div>
+          ))}
         </div>
         <div>
           <ProductTopSort />
         </div>
       </div>
-      <div className={styles.kajal5}>
-        <div className={styles.ayush1}>
-          <input type="checkbox"></input>
-          <label>3XS</label>
+      {selectedFilter != null && (
+        <div className={styles.kajal5}>
+          {selectedFilter.items.map((i) => (
+            <div className={styles.ayush1}>
+              <input type="checkbox"></input>
+              <label>{i.key}</label>
+            </div>
+          ))}
         </div>
-        <div className={styles.ayush1}>
-          <input type="checkbox"></input>
-          <label>XXS</label>
+      )}
+      <div className={styles.kajal7}>
+        <div className={styles.kajal4}>
+          <p>Onesize</p>
+          <FontAwesomeIcon icon={faXmark} className={styles.kajal8} />
         </div>
-        <div className={styles.ayush1}>
-          <input type="checkbox"></input>
-          <label>XS/S</label>
-        </div>
-        <div className={styles.ayush1}>
-          <input type="checkbox"></input>
-          <label>S</label>
+        <div className={styles.kajal4}>
+          <p>35</p>
+          <FontAwesomeIcon icon={faXmark} className={styles.kajal9} />
         </div>
       </div>
     </div>
