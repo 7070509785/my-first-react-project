@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 function ProductTopFilters() {
   const [selectedFilter, setSelectedFilter] = useState(null);
+  const [selectedItem, setSelectedItem] = useState([]);
   let filters = [
     {
       title: "Bundles",
@@ -95,14 +96,25 @@ function ProductTopFilters() {
       ],
     },
   ];
-
+  const onClick = (f) => {
+    if (selectedFilter?.title === f.title) {
+      setSelectedFilter(null);
+    } else {
+      setSelectedFilter(f);
+    }
+  };
+  const selectItem = () => {};
+  const removeItem = () => {};
   return (
     <div>
       <div className={styles.ayush}>
         <div className={styles.nutan}>
           {filters.map((f) => (
-            <div onClick={() => setSelectedFilter(f)}>
-              <ProductTopFillerItem title={f.title} />
+            <div onClick={() => onClick(f)}>
+              <ProductTopFillerItem
+                selected={selectedFilter?.title === f.title}
+                title={f.title}
+              />
             </div>
           ))}
         </div>
