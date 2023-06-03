@@ -1,34 +1,63 @@
-import styles from "./mandal.css";
-import { useState } from "react";
+import styles from './mandal.css';
+import { useState } from 'react';
 function Mandal() {
-  const [name, satName] = useState("");
-  consr[(tnc, satTnc)] = useState(false);
-  const [interest, satInterest] = useState("");
+  const [name, setName] = useState('');
+  const Mandal = ['nutan', 'timtim', 'ayush', 'timtim', 'ayush'];
+  const [tnc, setTnc] = useState([]);
+  const [interest, setInterest] = useState('');
   function getFormData(e) {
+    console.warn(name, tnc, interest);
     e.preventDefault();
   }
+  console.log(tnc);
   return (
-    <div className={styles.app}>
+    <div className={styles.pp}>
       <h1>Handle From in Recat</h1>
       <form onSubmit={getFormData}>
         <input
-          type="text"
-          Placeholder="enter name"
+          type='text'
+          Placeholder='enter name'
           onChange={(e) => setName(e.target.value)}
-        />{" "}
+        />{' '}
         <br />
         <br />
-        <select>
+        <select onChange={(e) => setInterest(e.target.value)}>
           <option>nutan kumari</option>
-          <option>timtim</option>
-          <option>ayush</option>
+          <option>Marvel</option>
+          <option>DC</option>
         </select>
         <br /> <br />
-        <input type="checkbox" />
-        <span>nutan kmari timtim kumari</span>
+        {Mandal.map((s, i) => (
+          <>
+            <input
+              type='checkbox'
+              value={tnc[i]}
+              onChange={(e) =>
+                setTnc((t) => {
+                  t[i] = e.target.checked;
+                  return [...t];
+                })
+              }
+            />
+            <span>{s}</span>
+            <br />
+            <br />
+          </>
+        ))}
+        <button type='submit'>submit</button>
+        <button>Clear</button>
         <br />
         <br />
-        <button type="submit">submit</button>
+        <br />
+        <div>
+          <ul>
+            {Mandal.map((s, i) => {
+              if (tnc[i]) {
+                return <li>{s}</li>;
+              }
+            })}
+          </ul>
+        </div>
       </form>
     </div>
   );

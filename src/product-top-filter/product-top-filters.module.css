@@ -15,7 +15,7 @@
 .kajal5 {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 20px;
+  padding: 13px 33px;
 }
 .ayush1 {
   margin: 0 20px 10px 0;
@@ -29,6 +29,7 @@
   border: 1px solid #b7bdbd;
   background: #cecccc;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .kajal6 p {

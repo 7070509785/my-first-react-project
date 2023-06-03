@@ -1,7 +1,7 @@
-import "./App.css";
-import Mandal from "./product-top-filter/mandal";
-import ProductTopFilters from "./product-top-filter/product-top-filters";
+import './App.css';
+import Mandal from './product-top-filter/mandal';
+import ProductTopFilters from './product-top-filter/product-top-filters';
 function App() {
-  return <Mandal></Mandal>;
+  return <ProductTopFilters></ProductTopFilters>;
 }
 export default App;

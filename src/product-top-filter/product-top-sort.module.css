@@ -9,6 +9,7 @@
   box-sizing: border-box;
   border: 1px solid #d4d5d9;
   position: relative;
+  margin-left: 433px;
 }
 .mood span {
   text-transform: capitalize;
@@ -41,6 +42,7 @@
   border: 1px solid #d4d5d9;
   left: 0;
   display: none;
+  background-color: white;
 }
 
 .kajal .apple:hover {

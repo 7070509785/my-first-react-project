@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "./product-top-sort.module.css";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './product-top-sort.module.css';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 function ProductTopSort() {
   return (
     <div className={styles.mood}>
