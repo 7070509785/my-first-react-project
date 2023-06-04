@@ -105,7 +105,7 @@ function ProductTopFilters() {
   };
 
   return (
-    <div>
+    <div className={styles.mood5}>
       <div className={styles.ayush}>
         <div className={styles.nutan}>
           {filters.map((f) => (

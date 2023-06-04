@@ -5,11 +5,11 @@
   color: #282c3f;
   cursor: pointer;
   position: relative;
-  width: 255px;
+  width: 272px;
   box-sizing: border-box;
   border: 1px solid #d4d5d9;
   position: relative;
-  margin-left: 433px;
+  justify-content: space-between;
 }
 .mood span {
   text-transform: capitalize;
@@ -17,6 +17,7 @@
   color: #282c3f;
   font-size: 13px;
 }
+
 .mood h5 {
   font-weight: 400;
   font-size: 13px;
@@ -24,7 +25,6 @@
 }
 .not {
   font-size: 12px;
-  margin-left: 66px;
 }
 
 .apple h5 {
@@ -50,4 +50,7 @@
 }
 .mood:hover .kajal {
   display: block;
+}
+.selected h5 {
+  font-weight: 700;
 }
