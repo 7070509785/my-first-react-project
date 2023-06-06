@@ -29,7 +29,7 @@
   justify-content: space-between;
   display: flex;
   margin: 31px 64px;
-  padding: 17px;
+  padding: 10px;
   border: solid 1px #d4d5d9;
 }
 
@@ -54,34 +54,30 @@
   width: 15px;
 }
 .mark1 {
-  border: solid 1px #d4d5d9;
-  width: 313px;
-  font-size: 15px;
-  padding: 12px;
+  padding: 12px 32px;
+  color: #282c3f;
+  font-weight: 600;
 }
 .timtim {
-  padding: 5px 10px;
+  padding: 11px 10px;
   font-size: 15px;
   width: 100%;
 }
-.good1 {
-  margin-bottom: 16px;
-  position: relative;
+.loog {
+  display: flex;
+  margin-left: 61px;
 }
-.good1 span {
-  color: #94969f;
-  top: -6px;
-  left: 12px;
-  font-size: 12px;
-  padding: 0px 2px;
-  position: absolute;
-  background-color: white;
+.loog1 p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 13px;
+  color: rgb(62, 65, 82);
+  margin-left: 55px;
 }
-.good1 input {
-  border: solid 1px #d4d5d9;
-  font-size: 16px;
-  padding: 12px;
-  height: auto;
-  color: #282c3f;
-  width: 100%;
+.title {
+  background-color: #ff3e6c;
+}
+.mandal6 {
+  pointer-events: none;
+  opacity: 0.4;
 }

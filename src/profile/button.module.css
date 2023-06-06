@@ -1,0 +1,37 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 333px;
+  height: 41px;
+}
+.primary {
+  border-color: #ff3e6c;
+}
+
+.primary .title {
+  color: white;
+  background-color: #ff3e6c;
+}
+.primary .title:hover {
+  background-color: #fd6d8e;
+}
+.secondary {
+  border: 1px solid rgb(189, 189, 189);
+  background-color: rgb(255, 253, 253);
+}
+
+.link {
+  border: none;
+  padding: 0;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  min-width: auto;
+  color: #ff3e6c;
+  margin-top: 10px;
+}
+.loog {
+  display: flex;
+  margin-left: 61px;
+}

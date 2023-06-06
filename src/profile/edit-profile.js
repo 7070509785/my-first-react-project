@@ -1,6 +1,9 @@
+import style from './button.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './edit-profile.module.css';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import Input from './input';
+import Button from './button';
 function EditProfile() {
   return (
     <div className={styles.nutan}>
@@ -19,14 +22,35 @@ function EditProfile() {
               </div>
             </div>
           </div>
-          <buttan className={styles.mark1}>
-            <p>CHANGE</p>
-          </buttan>
+          <Button className={styles['wishlist-btn']} type={'secondary'}>
+            <p className={styles.mark1}>change</p>
+          </Button>
         </div>
       </div>
-      <div className={styles.good1}>
-        <input className={styles.good} />
-        <span>Full Name</span>
+      <div className={styles.good}>
+        <Input placeholder={'Name*'}></Input>
+        <Input placeholder={'Email*'}></Input>
+
+        <div className={styles.loog}>
+          <Button className={styles['wishlist-btn']} type={'secondary'}>
+            <FontAwesomeIcon icon={faCheck} className={styles.mandal} />
+            <p className={styles.word}>Male</p>
+          </Button>
+          <Button className={style['wishlist-btn']} type={'secondary'}>
+            <FontAwesomeIcon icon={faCheck} />
+            <p className={styles.word}>Female</p>
+          </Button>
+        </div>
+        <Input placeholder={'Birthday (dd/mm/yyyy)*'}></Input>
+        <Input placeholder={'Location*'}></Input>
+        <div className={styles.loog1}>
+          <p>Alternate mobile details</p>
+        </div>
+        <div className={styles.mandla6}>
+          <Input placeholder={'+91 | Mobile Number*'}></Input>
+          <Input placeholder={'Hint name*'}></Input>
+          <Input placeholder={'Save Details*'}></Input>
+        </div>
       </div>
     </div>
   );
