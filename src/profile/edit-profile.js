@@ -22,7 +22,7 @@ function EditProfile() {
               </div>
             </div>
           </div>
-          <Button className={styles['wishlist-btn']} type={'secondary'}>
+          <Button className={styles['btne']} type={'secondary'}>
             <p className={styles.mark1}>change</p>
           </Button>
         </div>
@@ -32,12 +32,12 @@ function EditProfile() {
         <Input placeholder={'Email*'}></Input>
 
         <div className={styles.loog}>
-          <Button className={styles['wishlist-btn']} type={'secondary'}>
+          <Button className={styles['bet']} type={'secondary'}>
             <FontAwesomeIcon icon={faCheck} className={styles.mandal} />
-            <p className={styles.word}>Male</p>
+            <p>Male</p>
           </Button>
-          <Button className={style['wishlist-btn']} type={'secondary'}>
-            <FontAwesomeIcon icon={faCheck} />
+          <Button className={styles['btn']} type={'secondary'}>
+            <FontAwesomeIcon icon={faCheck} className={styles.mandal1} />
             <p className={styles.word}>Female</p>
           </Button>
         </div>
@@ -45,11 +45,13 @@ function EditProfile() {
         <Input placeholder={'Location*'}></Input>
         <div className={styles.loog1}>
           <p>Alternate mobile details</p>
-        </div>
-        <div className={styles.mandla6}>
-          <Input placeholder={'+91 | Mobile Number*'}></Input>
+          <Input placeholder={'+91 Mobile Number*'}></Input>
           <Input placeholder={'Hint name*'}></Input>
-          <Input placeholder={'Save Details*'}></Input>
+        </div>
+        <div>
+          <Button className={styles['btn']} type={'secondary'}>
+            <p>Female</p>
+          </Button>
         </div>
       </div>
     </div>

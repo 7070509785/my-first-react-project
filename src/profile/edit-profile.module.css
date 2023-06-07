@@ -55,7 +55,6 @@
 }
 .mark1 {
   padding: 12px 32px;
-  color: #282c3f;
   font-weight: 600;
 }
 .timtim {
@@ -66,6 +65,7 @@
 .loog {
   display: flex;
   margin-left: 61px;
+  cursor: pointer;
 }
 .loog1 p {
   font-size: 14px;
@@ -74,10 +74,36 @@
   color: rgb(62, 65, 82);
   margin-left: 55px;
 }
-.title {
-  background-color: #ff3e6c;
+.bet {
+  border: solid 1px #d4d5d9;
+  min-width: 332px;
+  height: 40px;
 }
-.mandal6 {
-  pointer-events: none;
-  opacity: 0.4;
+.btn {
+  border: solid 1px #d4d5d9;
+  min-width: 332px;
+  height: 40px;
+}
+.loog p {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+.loog_word {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+.mandal {
+  margin-right: 5px;
+  color: #ff3e6c;
+}
+.mandal1 {
+  margin-right: 5px;
+  color: #ff3e6c;
+}
+.btne {
+  border: solid 1px #d4d5d9;
+  min-width: 332px;
+  height: 40px;
 }
