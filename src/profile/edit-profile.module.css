@@ -107,3 +107,26 @@
   min-width: 332px;
   height: 40px;
 }
+.bittu {
+  border: solid 1px #d4d5d9;
+  min-width: 663px;
+  height: 40px;
+  background-color: #ff3e6c;
+}
+.bittu1 {
+  margin-left: 63px;
+}
+.bittu1 p {
+  color: white;
+  font-size: 15px;
+}
+.bittu2 {
+  margin-left: 63px;
+  margin-top: 30px;
+}
+.bittu3 {
+  border: solid 1px #d4d5d9;
+  min-width: 663px;
+  height: 40px;
+  background-color: white;
+}

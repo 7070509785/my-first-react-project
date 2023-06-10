@@ -48,9 +48,14 @@ function EditProfile() {
           <Input placeholder={'+91 Mobile Number*'}></Input>
           <Input placeholder={'Hint name*'}></Input>
         </div>
-        <div>
-          <Button className={styles['btn']} type={'secondary'}>
-            <p>Female</p>
+        <div className={styles.bittu1}>
+          <Button className={styles['bittu']} type={'secondary'}>
+            <p>SAVE DETAILS</p>
+          </Button>
+        </div>
+        <div className={styles.bittu2}>
+          <Button className={styles['bittu3']} type={'secondary'}>
+            <p>CHANG PASSWORD</p>
           </Button>
         </div>
       </div>
