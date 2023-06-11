@@ -1,7 +1,7 @@
 .nutan {
   padding: 30px;
   border: solid 2px #d4d5d9;
-  margin: 40px 80px;
+  margin: 101px 530px;
 }
 .nutan1 h2 {
   margin-bottom: 20px;
@@ -28,13 +28,13 @@
 .mood2 {
   justify-content: space-between;
   display: flex;
-  margin: 31px 64px;
+  margin: 32px 61px;
   padding: 10px;
   border: solid 1px #d4d5d9;
+  width: 85%;
 }
 
 .mood5 {
-  display: flex;
   display: flex;
   position: relative;
   bottom: -10px;
@@ -51,7 +51,7 @@
   background-color: #03a685;
   border-radius: 50%;
   height: 15px;
-  width: 15px;
+  margin-left: 5px;
 }
 .mark1 {
   padding: 12px 32px;
@@ -106,6 +106,7 @@
   border: solid 1px #d4d5d9;
   min-width: 332px;
   height: 40px;
+  border-radius: 2pxsss;
 }
 .bittu {
   border: solid 1px #d4d5d9;
@@ -129,4 +130,11 @@
   min-width: 663px;
   height: 40px;
   background-color: white;
+}
+.good input {
+  padding: 11px 10px;
+  margin: 10px 51px;
+  font-size: 13px;
+  width: 87%;
+  border: solid 1px #d4d5d9;
 }

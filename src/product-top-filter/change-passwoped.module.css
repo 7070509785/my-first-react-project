@@ -1,0 +1,41 @@
+.toog {
+  padding: 30px;
+  margin: 43px 221px;
+  background-color: white;
+}
+.toog1 {
+  margin-left: 52px;
+  width: 550px;
+  padding: 10px;
+}
+
+.toog1 h3 {
+  background-color: white;
+  color: #282c3f;
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 1px solid #eaeaec;
+  padding-bottom: 12px;
+  margin: 0;
+}
+.mood {
+  margin-left: 64px;
+  margin-top: 23px;
+  margin-right: 21px;
+}
+.toog3 {
+  padding: 21px 16px;
+  margin: 0px 51px;
+  font-size: 13px;
+  width: 38%;
+  border: solid 1px #d4d5d9;
+}
+.toog5_span {
+  background-color: rgba(40, 44, 63, 0.05);
+}
+.toog4 {
+  border-radius: 2px;
+  margin-top: 6px;
+  opacity: 0.5;
+  font-size: 15px;
+}

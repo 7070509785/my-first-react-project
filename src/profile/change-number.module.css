@@ -1,0 +1,60 @@
+.timtim {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  padding: 40px 40px 32px 40px;
+  margin: auto;
+}
+.nutan {
+  display: flex;
+  justify-content: space-between;
+}
+.nutan1 {
+  color: #3e4152;
+  font-size: 21px;
+  font-weight: 500;
+}
+.nutan2 {
+  margin-top: 16px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  font-size: 13px;
+}
+.nutan3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.nutan4 {
+  font-size: 14px;
+  color: #3e4152;
+  font-weight: 500;
+}
+.nutan5 {
+  margin-top: 10px;
+}
+.nutan6 {
+  padding: 10px 0;
+  margin-bottom: 8px;
+  display: flex;
+  cursor: pointer;
+}
+
+.nutan7 {
+  font-size: 16px;
+  color: #282c3f;
+  padding-left: 16px;
+}
+.bittu3 {
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  background-color: #ff3f6c;
+  opacity: 0.5;
+}
+.nutan8 p {
+  color: white;
+}

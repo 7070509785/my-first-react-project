@@ -1,10 +1,12 @@
 .toog {
   padding: 30px;
-  margin: 43px 221px;
+  margin-left: 565px;
   background-color: white;
 }
 .toog1 {
-  margin-left: 60px;
+  margin-left: 52px;
+  width: 550px;
+  padding: 10px;
 }
 
 .toog1 h3 {
@@ -13,11 +15,103 @@
   font-weight: 400;
   font-size: 20px;
   border-bottom: 1px solid #eaeaec;
-  padding-bottom: 12px;
-  margin: 0;
+  padding-bottom: 16px;
+  margin: 4px;
+  width: 470px;
 }
+
 .mood {
   margin-left: 64px;
   margin-top: 23px;
   margin-right: 21px;
+}
+.toog2 input {
+  padding: 14px 12px;
+  margin: 8px 51px;
+  font-size: 13px;
+  width: 38%;
+  border: solid 1px #d4d5d9;
+}
+
+.toog4 {
+  display: flex;
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: 61px;
+}
+
+.toog5 span {
+  background-color: rgba(40, 44, 63, 0.05);
+  padding: 5px 10px 6px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: #282c3f;
+}
+
+.toog6 span {
+  background-color: rgba(40, 44, 63, 0.05);
+  padding: 5px 10px 6px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: #282c3f;
+}
+.toog7 span {
+  background-color: rgba(40, 44, 63, 0.05);
+  padding: 5px 10px 6px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: #282c3f;
+}
+.toog8 span {
+  background-color: rgba(40, 44, 63, 0.05);
+  padding: 5px 10px 6px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: #282c3f;
+}
+.toog9 input {
+  padding: 14px 12px;
+  margin: 8px 51px;
+  font-size: 13px;
+  width: 38%;
+  border: solid 1px #d4d5d9;
+}
+.toog10_toog11 {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 200px;
+  height: 46px;
+  overflow: hidden;
+  margin-left: 60px;
+  width: 38%;
+}
+.toog11 {
+  background-color: #ff3f6c;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 200px;
+  height: 46px;
+  overflow: hidden;
+  margin-left: 60px;
+  width: 38%;
+}
+.toog12 {
+  margin-top: 40px;
+}
+.toog13 {
+  border: 1px solid #ff3f6c;
+  background-color: rgb(255, 253, 253);
+  cursor: pointer;
+  outline: none;
+  min-width: 200px;
+  height: 46px;
+  overflow: hidden;
+  margin-left: 60px;
+  width: 38%;
+}
+.toog12 p {
+  color: #ff3f6c;
 }

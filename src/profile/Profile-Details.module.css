@@ -1,0 +1,40 @@
+.timtim {
+  padding: 50px;
+  border: 1px solid #d4d4d9;
+  margin-top: 18px;
+  margin-left: 459px;
+  margin-right: 671px;
+}
+
+.timtim1 {
+  width: 669px;
+  padding: 40px 40px 32px 40px;
+}
+.timtim2 {
+  color: #282c3f;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid #eaeaec;
+  padding-bottom: 36px;
+}
+.timtim3 {
+  margin: -14px 0 25px 0;
+  padding: 0 24px;
+}
+.timtim tr {
+  height: 43px;
+  text-align: left;
+}
+.timtim td {
+  width: 200px;
+  padding: 0 24px;
+  text-decoration: none;
+  color: #282c3f !important;
+  font-size: 15px;
+}
+.toog12_toog13 {
+  border: 1px solid rgb(189, 189, 189);
+  background-color: #ff3e6c;
+  margin-left: 35px;
+  min-width: 385px;
+}

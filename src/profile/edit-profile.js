@@ -28,7 +28,7 @@ function EditProfile() {
         </div>
       </div>
       <div className={styles.good}>
-        <Input placeholder={'Name*'}></Input>
+        <Input className={styles['goodi']} placeholder={'Name*'}></Input>
         <Input placeholder={'Email*'}></Input>
 
         <div className={styles.loog}>
