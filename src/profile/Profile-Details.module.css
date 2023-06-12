@@ -18,7 +18,7 @@
   padding-bottom: 36px;
 }
 .timtim3 {
-  margin: -14px 0 25px 0;
+  margin: 24px 0 25px 0;
   padding: 0 24px;
 }
 .timtim tr {
@@ -32,9 +32,17 @@
   color: #282c3f !important;
   font-size: 15px;
 }
-.toog12_toog13 {
-  border: 1px solid rgb(189, 189, 189);
+.toog13 {
   background-color: #ff3e6c;
-  margin-left: 35px;
-  min-width: 385px;
+  margin-left: 45px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+  width: 433px;
+
+  height: 45px;
+}
+.toog12 p {
+  color: white;
+  font-size: 15px;
 }

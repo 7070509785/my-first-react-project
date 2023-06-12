@@ -1,0 +1,43 @@
+.nutan {
+  display: flex;
+}
+.nutan img {
+  height: 100%;
+  max-width: 110px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nutan2 span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1a1f36;
+  cursor: pointer;
+}
+.nutan3 p {
+  color: rgba(165, 172, 184, 1);
+  font-size: 14px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.nutan2 {
+  padding: 5px;
+}
+
+.nutan4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 54%;
+  background: rgba(239, 239, 239, 1);
+  cursor: pointer;
+  color: rgba(165, 172, 184, 1);
+  margin-left: 156px;
+  margin-top: -16px;
+}
+.nutan4 {
+  display: none;
+}
+
+.nutan:hover .nutan4 {
+  display: block;
+}
