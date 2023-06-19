@@ -1,4 +1,4 @@
-import styles from './mandal.css';
+import styles from './mandal.module.css';
 import { useState } from 'react';
 function Mandal() {
   const [name, setName] = useState('');

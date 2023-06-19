@@ -1,21 +1,21 @@
-import "./card.css";
+import styles from './card.module.css';
 function Card({ imageSrc, image1Src, thela, title, price }) {
   return (
     <div>
-      <div className="timtim">
-        <div className="ayush">
+      <div className={styles.timtim}>
+        <div className={styles.ayush}>
           <img src={imageSrc}></img>
         </div>
-        <div className="bittu">
+        <div className={styles.bittu}>
           <img src={image1Src}></img>
         </div>
-        <div className="himanshu1">
+        <div className={styles.himanshu1}>
           <img src={thela}></img>
         </div>
-        <div className="hello">
+        <div className={styles.hello}>
           <p>{title}</p>
         </div>
-        <div className="hii">
+        <div className={styles.hii}>
           <p>{price}</p>
         </div>
       </div>

@@ -1,0 +1,33 @@
+.timtim img {
+  height: 195px;
+}
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: black;
+}
+.bittu {
+  margin-top: -198px;
+}
+.bittu img {
+  height: 38px;
+  width: 42px;
+}
+.himanshu1 img {
+  height: 38px;
+  width: 77px;
+  margin-left: 28px;
+  margin-top: 79px;
+}
+.hello {
+  margin-top: -25px;
+  color: white;
+  font-size: 14px;
+  margin-left: 13px;
+}
+.last {
+  overflow: hidden;
+  background-color: black;
+  width: 136px;
+}

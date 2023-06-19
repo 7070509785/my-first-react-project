@@ -1,8 +1,8 @@
-import "./carousel-card.css";
+import styles from './carousel-card.module.css';
 function CarouselCard({ number, imageSrc, title }) {
   return (
-    <div className="apple1">
-      <div className="apple">
+    <div className={styles.apply1}>
+      <div className={styles.apply}>
         <p>{number}</p>
         <img src={imageSrc}></img>
         <h2>{title}</h2>
